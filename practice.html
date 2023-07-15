@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-1{
+           grid-area: a; 
+        }
+        .image-2{
+            grid-area: b; 
+        }
+        .image-3{
+            grid-area: c; 
+        }
+        .image-4{
+            grid-area: d; 
+        }
+        .image-5{
+            grid-area: e; 
+        }
+        .image-6{
+            grid-area: f; 
+        }
+        .container img{
+            width: 100%;
+            border-radius: 16px;
+        }
+        .container{
+            display: grid;
+            gap: 24px;
+            margin: 40px 300px;
+            grid-template-areas:
+            "a b b"
+            "c c d"
+            "e f d"
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/photo1.png" alt="" class="image-1">
+        <img src="images/photo2.png" alt="" class="image-2">
+        <img src="images/photo3.png" alt="" class="image-3">
+        <img src="images/photo_4.png" alt="" class="image-4">
+        <img src="images/photo5.png" alt="" class="image-5">
+        <img src="images/photo6.png" alt="" class="image-6">
+    </div>
+</body>
+</html>
