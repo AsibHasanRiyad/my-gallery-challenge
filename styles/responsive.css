@@ -1,0 +1,19 @@
+        /* responsive */
+        @media screen and (max-width:776px) {
+            .container{
+            margin: 40px auto;
+            width: 88%;
+            height: 100%;
+            }
+            .counting{
+                margin-left: 3px;
+                margin-right: 5px;
+            }
+        }
+        @media screen and (min-width:776px) and (max-width:992px) {
+            .container{
+                margin: 40px auto;
+                width: 88%;
+                height: 100%;
+                }
+        }
